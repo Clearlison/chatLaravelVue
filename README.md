@@ -85,9 +85,9 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 4. run the command "composer install"
 5. run the commands "npm install" and "npm run watch"
 6. create your Pusher app and set the configurations in your '.env':
-    PUSHER_APP_ID=your_app_id
-    PUSHER_APP_KEY=your_app_key
-    PUSHER_APP_SECRET=your_app_secret
+    PUSHER_APP_ID=your_app_id <br>
+    PUSHER_APP_KEY=your_app_key <br>
+    PUSHER_APP_SECRET=your_app_secret <br>
     PUSHER_APP_CLUSTER=us2
 7. run the command 'php artisan key:gen';
 8. run the command 'php artisan migrate';
