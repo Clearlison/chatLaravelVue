@@ -84,7 +84,7 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 3. create your database;
 4. run the command "composer install"
 5. run the commands "npm install" and "npm run watch"
-6. create your Pusher app and set the configurations in your '.env':
+6. create your Pusher app and set the configurations in your '.env': <br>
     PUSHER_APP_ID=your_app_id <br>
     PUSHER_APP_KEY=your_app_key <br>
     PUSHER_APP_SECRET=your_app_secret <br>
