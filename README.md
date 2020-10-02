@@ -89,6 +89,7 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
     PUSHER_APP_KEY=your_app_key <br>
     PUSHER_APP_SECRET=your_app_secret <br>
     PUSHER_APP_CLUSTER=us2
-7. run the command 'php artisan key:gen';
-8. run the command 'php artisan migrate';
-9. run the command 'php artisan serve' and open the project in 'http://localhost:8000'.
+7. Alter 'BROADCAST_DRIVER=log' to 'BROADCAST_DRIVER=pusher' in your '.env'; <br>
+8. run the command 'php artisan key:gen';
+9. run the command 'php artisan migrate';
+10. run the command 'php artisan serve' and open the project in 'http://localhost:8000'.
